@@ -1,3 +1,5 @@
+## Teste de altera√ß√£o.
+
 ############################################
 ### Comparando resultados de anova e summary
 set.seed(735)
@@ -39,10 +41,10 @@ t_x1.x2
 F_x1.x2
 t_x1.x2^2
 
-## O QUE EST¡ ACONTECENDO AQUI? POR QUE APENAS O TERMO DE INTERA«√O EST¡ DANDO IGUAL?
+## O QUE EST√Å ACONTECENDO AQUI? POR QUE APENAS O TERMO DE INTERA√á√ÉO EST√Å DANDO IGUAL?
 
 ##########################################
-#  Vari·vel  ###########  SSR  ###########
+#  Vari√°vel  ###########  SSR  ###########
 ################ summary ###### anova ####
 #    x1      # x1|x2,x1:x2 #      x1     #
 #    x2      # x2|x1,x1:x2 #    x2|x1    #
@@ -73,10 +75,10 @@ confint(modelo1,level=0.99)
 
 # Para E(y)
 
-# Perceba que no caso de regress„o com m˙ltiplas vari·veis numÈricas,
-# nossa reta de regress„o È generalizada a um hiperplano.
-# Por esse motivo, para facilitar a visualizaÁ„o, iremos deixar uma
-# das covari·veis livres e fixar as demais.
+# Perceba que no caso de regress√£o com m√∫ltiplas vari√°veis num√©ricas,
+# nossa reta de regress√£o √© generalizada a um hiperplano.
+# Por esse motivo, para facilitar a visualiza√ß√£o, iremos deixar uma
+# das covari√°veis livres e fixar as demais.
 
 x2_fixo1<-mean(x2)
 x2_fixo2<-mean(x2)-sd(x2)
