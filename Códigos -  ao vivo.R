@@ -1,4 +1,5 @@
 ## Teste de alteração.
+## Teste de alteração - Thaíse
 
 ############################################
 ### Comparando resultados de anova e summary
